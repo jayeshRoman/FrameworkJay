@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[KIte logo is displayed true]]>
+    </line>
+    <line>
+      <![CDATA[Title of page =Kite - Zerodha's fast and elegant flagship trading platform]]>
+    </line>
+    <line>
+      <![CDATA[userIdText is avaialable = MOE840]]>
+    </line>
+    <line>
+      <![CDATA[Zerodha log is displayed = true]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-15T11:18:50 IST" name="Default suite" finished-at="2022-04-15T11:19:36 IST" duration-ms="46558">
+    <groups>
+    </groups>
+    <test started-at="2022-04-15T11:18:50 IST" name="Default test" finished-at="2022-04-15T11:19:36 IST" duration-ms="46558">
+      <class name="TestCases.LoginPageText">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:18:50 IST" name="setup" finished-at="2022-04-15T11:19:01 IST" duration-ms="10901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginToZerodhaAccountTest()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:01 IST" name="loginToZerodhaAccountTest" finished-at="2022-04-15T11:19:06 IST" duration-ms="5261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToZerodhaAccountTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:06 IST" name="exit" finished-at="2022-04-15T11:19:09 IST" duration-ms="2623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginToZerodhaAccountTest status=SUCCESS method=LoginPageText.loginToZerodhaAccountTest()[pri:0, instance:TestCases.LoginPageText@662b4c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:09 IST" name="setup" finished-at="2022-04-15T11:19:15 IST" duration-ms="6742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyKiteLogoTest()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:15 IST" name="verifyKiteLogoTest" finished-at="2022-04-15T11:19:16 IST" duration-ms="328" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[KIte logo is displayed true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyKiteLogoTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:16 IST" name="exit" finished-at="2022-04-15T11:19:16 IST" duration-ms="143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyKiteLogoTest status=SUCCESS method=LoginPageText.verifyKiteLogoTest()[pri:0, instance:TestCases.LoginPageText@662b4c69] output=KIte logo is displayed true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:16 IST" name="setup" finished-at="2022-04-15T11:19:22 IST" duration-ms="5704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPageTitleTest()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:22 IST" name="verifyPageTitleTest" finished-at="2022-04-15T11:19:22 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of page =Kite - Zerodha's fast and elegant flagship trading platform]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:22 IST" name="exit" finished-at="2022-04-15T11:19:22 IST" duration-ms="151" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTitleTest status=SUCCESS method=LoginPageText.verifyPageTitleTest()[pri:0, instance:TestCases.LoginPageText@662b4c69] output=Title of page =Kite - Zerodha's fast and elegant flagship trading platform]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:22 IST" name="setup" finished-at="2022-04-15T11:19:29 IST" duration-ms="6752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyUserIdTextTest()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:29 IST" name="verifyUserIdTextTest" finished-at="2022-04-15T11:19:30 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[userIdText is avaialable = MOE840]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyUserIdTextTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:30 IST" name="exit" finished-at="2022-04-15T11:19:30 IST" duration-ms="224" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserIdTextTest status=SUCCESS method=LoginPageText.verifyUserIdTextTest()[pri:0, instance:TestCases.LoginPageText@662b4c69] output=userIdText is avaialable = MOE840]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:30 IST" name="setup" finished-at="2022-04-15T11:19:36 IST" duration-ms="5480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyZerodhaLogoTest()[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:36 IST" name="verifyZerodhaLogoTest" finished-at="2022-04-15T11:19:36 IST" duration-ms="203" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Zerodha log is displayed = true]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyZerodhaLogoTest -->
+        <test-method is-config="true" signature="exit(org.testng.ITestResult)[pri:0, instance:TestCases.LoginPageText@662b4c69]" started-at="2022-04-15T11:19:36 IST" name="exit" finished-at="2022-04-15T11:19:36 IST" duration-ms="196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyZerodhaLogoTest status=SUCCESS method=LoginPageText.verifyZerodhaLogoTest()[pri:0, instance:TestCases.LoginPageText@662b4c69] output=Zerodha log is displayed = true]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- TestCases.LoginPageText -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
